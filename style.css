@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background-color: hsl(210, 46%, 95%);
+}
+.first-alignment{
+  display: grid;
+  grid: 
+    'header header header '
+    'footer footer';
+  grid-template-columns: 1fr 1fr 20px;
+  column-gap: 20px;
+  
+}
+.general-container{
+  font-family: 'Barlow semi condensed', sans-serif;
+  padding: 50px;
+  display: flex;
+
+}
+
+.daniel-testimonial-general{
+  background-color:  hsl(263, 55%, 52%);
+  display: flex;
+  flex-direction: column;
+  padding: 5px 34px 34px 20px;
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  padding-top: 20px;
+  padding-right: 20px;
+  grid-area:;
+}
+
+img{
+  object-fit: contain;
+  width: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  object-position: top;
+  display: flex;
+  margin-bottom: auto;
+  border-color: hsl(0, 0%, 50%);  
+}
+.daniel-name{
+  color:  hsl(0, 0%, 100%);
+  font-size: 14px;
+  margin-top: 0;
+  margin-left: 10px;
+}
+.graduate-status,
+p{
+  color:  hsl(0, 0%, 50%);
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.kira-alignment{
+  display: flex;
+  flex-direction: row;
+}
+.kira-name{
+  margin-left: 10px;
+}
+h1{
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+}
+.daniel-writeup{
+  margin-top: 0px;
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+.Jonathan-Testimoinal-general{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 34px 34px 20px;
+  border-radius: 10px;
+  height: 200px;
+  width: 180px;
+  padding-top: 20px;
+  padding-right: 20px;
+  background-color: hsl(217, 19%, 35%);
+}
+.jonathan-main-writeup{
+  margin-bottom: 0px;
+  margin-top: 27px;
+}
+.jonathan-overveiw-text, .kira-general-text{
+  width: 180px;
+  margin-top: 10px;
+  vertical-align: text-top;
+}
+.daniel-alignment, .Jonathan-alignment{
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  column-gap: 25px;
+  vertical-align: top;
+}
+.Jonathan-name{
+  color: hsl(0, 0%, 100%);
+}
+.kira-Testimonial-general{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 34px 34px 20px;
+  border-radius: 10px;
+  height: 400px;
+  width: 180px;
+  padding-top: 20px;
+  padding-right: 20px;
+  background-color:  hsl(0, 0%, 100%);
+}
+.kira-text-head{
+  color:  hsl(217, 19%, 35%);
+}
+.Jeanette-Testimonial-general{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 34px 34px 20px;
+  border-radius: 10px;
+  height: 200px;
+  width: 180px;
+  padding-top: 20px;
+  padding-right: 20px;
+  background-color:  hsl(0, 0%, 100%);
+}
