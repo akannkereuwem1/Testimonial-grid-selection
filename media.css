@@ -1,0 +1,31 @@
+@media screen and (min-width: 480px)  and (max-width: 600px) {
+  .general-container{
+    padding: 0px;
+    margin: 20px;
+  }
+  .first-alignment{
+    display: block;
+  }
+  .daniel-writeup, .daniel-head, .jonathan-overveiw-text, .kira-general-text{
+    width: 220px;
+  
+  }
+  .daniel-testimonial-general, .Jonathan-Testimoinal-general, .kira-Testimonial-general, .Jeanette-Testimonial-general, .Patrick-Testimonial-general{
+    display: flex;
+    width: 230px;
+    height: 270px;
+    margin-bottom: 20px;
+  }
+  .Jonathan-Testimoinal-general, .kira-Testimonial-general, .Jeanette-Testimonial-general, .Patrick-Testimonial-general{
+    height: auto;
+  }
+  .Jeanette-Testimonial-general{
+    margin-left: 0px;
+  }
+  .j-and-p{
+    display: block;
+  }
+  .Patrick-Testimonial-general{
+    margin-left: 0px;
+  }
+}
